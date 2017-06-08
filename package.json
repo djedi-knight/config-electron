@@ -1,10 +1,10 @@
 {
-  "name": "electron-node-config",
-  "version": "1.0.1",
+  "name": "electron-config",
+  "version": "1.0.0",
   "main": "./index.js",
   "description": "Configuration control for electron based node applications",
-  "author": "Dennis Williams",
-  "homepage": "http://github.com/dw1284/electron-node-config",
+  "author": "Shawn Daichendt",
+  "homepage": "http://github.com/djedi-knight/electron-config",
   "keywords": [
     "conf",
     "config",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/dw1284/electron-node-config.git"
+    "url": "http://github.com/djedi-knight/electron-config.git"
   },
   "scripts": {
     "test": "mocha ./test"
