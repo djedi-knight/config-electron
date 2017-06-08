@@ -15,7 +15,7 @@ Installation
 
 ```shell
 $ npm install config-electron
-$ mkdir config
+$ mkdir -p config
 $ vi config/default.json
 ```
 
