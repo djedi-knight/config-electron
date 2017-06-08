@@ -1,4 +1,4 @@
-electron-node-config
+electron-config
 ==========
 
 Introduction
@@ -14,7 +14,7 @@ Installation
 ------------
 
 ```shell
-$ npm install electron-node-config
+$ npm install electron-config
 $ mkdir config
 $ vi config/default.json
 ```
@@ -40,7 +40,7 @@ Assuming the following default.json:
 Pull the config into your code:
 
 ```js
-let config = require('electron-node-config');
+let config = require('electron-config');
 let dbConfig = config.get('Customer.dbConfig');
 
 console.log(config.Customer.credit.initialDays);
@@ -51,4 +51,4 @@ console.log(dbConfig.host);
 License
 -------
 
-May be freely distributed under the [MIT license](https://raw.githubusercontent.com/dw1284/electron-node-config/master/LICENSE).
+May be freely distributed under the [MIT license](https://raw.githubusercontent.com/djedi-knight/electron-config/master/LICENSE).
